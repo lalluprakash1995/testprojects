@@ -1,0 +1,31 @@
+body{
+	background-color: #e8e8e8;
+	margin: 0;
+	padding: 0;
+}
+input[type=text]{
+	outline: none;
+}
+h1{
+	color: rgba(175, 47, 47, 0.15);
+}
+::placeholder {
+  color: #d8d8d8;
+}
+.deletebtn{
+	position: relative;
+    top: 8px;
+}
+input[type="checkbox"]{
+  width: 30px; /*Desired width*/
+  height: 30px; /*Desired height*/
+  cursor: pointer;
+ /* -webkit-appearance: none;
+  appearance: none;*/
+}
+del div{
+  opacity: 0.2;
+}
+#footerWrap a,#deleteAll,#selectall{
+  cursor: pointer;
+}
