@@ -1,0 +1,12 @@
+  h4{
+  	position: relative;
+    top: -20px;
+    background: white;
+  }
+  .alertBox{
+  	width: 60%;
+    position: absolute;
+    top: 272px;
+    z-index: 1;
+    left: 280px;
+  }
